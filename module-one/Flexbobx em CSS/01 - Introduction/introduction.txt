@@ -1,0 +1,24 @@
+FlexBox, foi projectado como um modelo de layout unidimensaional e como um método que pode oferecer distribuição de espaço entre itens em uma interface e recursos de alinhamento
+
+Estrutura básica
+
+Flex Container X Flex Item
+flex container é a tag onde os itens serão encaixados(tela branca), nela serão alocados os "filhos" chamados de flex itens 
+
+Propriedades iniciais
+flex container:
+ - display ,inicializados do container
+ - flex-direction, direcionamento dos itens
+ - flex-wrap, quebra de linha
+ - flex-flow, direction+flow
+ - justify-content, alinhar os itens de acordo com a direção
+ - align-items, alinha de acordo com o eixo
+ - align-content, alinha de acorod com a linha
+
+flex item:
+ - flex-grow, define o fator de cresimento
+ - flex-basis, define tamanho inicial
+ - flex-shrink, capacidade de redução
+ - flex basis,shrink,grow
+ - order, ordem de listagem
+ - align-self, alinhamento de item especifico

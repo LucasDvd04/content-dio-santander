@@ -1,0 +1,138 @@
+/*tags usads em geral*/
+body{
+	margin: 0;
+	padding: 0;
+	max-width: 900px;
+	margin: auto;
+}
+
+.title{
+	border:1px solid #505050;
+}
+
+.first-title{
+	justify-content: center;
+	font-family: Verdana;
+	text-align: center;
+}
+
+.second-title{
+	display: flex;
+	text-align: center;
+	font-family: Verdana;
+}
+
+
+.post{
+	margin-top: 10px;
+	border:2px solid black;
+}
+
+.post-title{
+	border:1px solid red;
+	padding: 5px;
+}
+.demostration{
+	width: 400px;
+	height: 400px;
+	border:1px solid black;
+	margin: auto;
+}
+.item{
+	border:1px solid black;
+	background: pink;
+	color: black;
+	margin: 10px;
+	padding: 10px;
+}
+
+/*tags usads em geral*/
+
+
+/*Tags exclusivas de cada post*/
+
+.flex{
+	max-width: 200px;
+	list-style: none;
+	display: flex;
+}
+
+.flex-row{
+	max-width: 200px;
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+}
+
+.flex-column{
+	max-width: 200px;
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	float: right;
+}
+
+.wrap{
+	max-width: 200px;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.nowrap{
+	max-width: 200px;
+	list-style: none;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.flow-nowrap-column{
+	max-width: 200px;
+	list-style: none;
+	display: flex;
+	flex-flow: nowrap column;
+}
+
+.flow-wrap-row{
+	list-style: none;
+	display: flex;
+	flex-flow: wrap row;
+	float: right;
+}
+
+.flex-start{
+	list-style: none;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.flex-center{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+.flex-end{
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+}
+
+
+.align-center{
+	list-style: none;
+	display: flex;
+	align-items: center;
+}
+.align-stretch{
+	list-style: none;
+	display: flex;
+	align-items: stretch;
+}
+
+.align-start{
+	list-style: none;
+	display: flex;
+	align-items: flex-start;
+}
+
+/*Tags exclusivas de cada post*/

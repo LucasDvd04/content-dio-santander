@@ -1,0 +1,24 @@
+display: flex;
+ - Inicializador do do container como um flex
+
+
+flex-direction
+ - define se a direção dos itens é y(column) ou x(row)
+ - row,column e column-reverser
+
+flex-wrap
+ - define a quebra de linha
+ - nowrap(padrão), wrap(quando não puder mais ser compactador vai para linha de baixo),wrap-reverse
+
+flex-flow
+ - substitui flex-direction e flex-wrap
+ - o uso não é muito comum
+
+justify-content
+ - Alinha os itens dentro de um container
+ - não funciona se os itens ocupam 100% do container
+ - flex-start(inicio do container), flex-end(fim do container),center(no centro),space-between(espaço igual entre os itens)space-around(o meio entre os itens é duas vezes maior que o inicio)
+
+align-items
+ - alinhamento dos itens por meio de eixos
+ - center(no centro),stretch(padrão, crescem igualmente),flex-start(no inicio),flex-end(no final),baseline(eixo da linha base do item)

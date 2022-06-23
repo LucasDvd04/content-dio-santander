@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fundamentals</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<header class="title">
+		<h1 class="first-title">Flex-Box</h1>
+		<section class="second-title">
+			<h3>
+				Foi projetado como um modelo de layout unidimensaional e como um método que pode oferecer distribuição de espaço entre itens em uma interface e recursos de alinhamento
+			</h3>
+		</s ction>
+	</header>
+
+
+	<article class="post">
+		<h2 class="post-title">
+			display:flex
+		</h2>
+
+		<div class="demostration">
+				<ul class="flex">
+					<li class="item">item 01</li>
+					<li class="item">item 02</li>
+					<li class="item">item 03</li>
+				</ul>
+		</div>
+
+		<p class="post-body">
+			Inicializador do container como um flex
+		</p>
+	</article>
+
+<article class="post">
+		<h2 class="post-title">
+			flex-direction
+		</h2>
+
+		<div class="demostration">
+				<p>row</p>
+				<ul class="flex-row">	
+					<li class="item">item 01</li>
+					<li class="item">item 02</li>
+					<li class="item">item 03</li>
+				</ul>
+				<p>column</p>
+				<ul class="flex-column">
+					<li class="item">item 01</li>
+					<li class="item">item 02</li>
+					<li class="item">item 03</li>
+				</ul>
+		</div>
+
+		<p class="post-body">
+			define se a direção dos itens é y(column) ou x(row)
+			row,column e column-reverser
+
+		</p>
+	</article>
+
+<article class="post">
+		<h2 class="post-title">
+			flex-direction
+		</h2>
+
+		<div class="demostration">
+			<p>wrap</p>
+				<ul class="wrap">
+					<li class="item">item 01</li>
+					<li class="item">item 02</li>
+					<li class="item">item 03</li>
+					<li class="item">item 04</li>
+				</ul>
+				<p>nowrap</p>
+				<ul class="nowrap">
+					<li class="item">item 01</li>
+					<li class="item">item 02</li>
+					<li class="item">item 03</li>
+					<li class="item">item 04</li>
+				</ul>
+		</div>
+
+		<p class="post-body">
+			define a quebra de linha se o limite de tela não suportar
+			 - nowrap(padrão), wrap(quando não puder mais ser compactador vai para linha de baixo),wrap-reverse
+		</p>
+	</article>
+
+<article class="post">
+		<h2 class="post-title">
+			flex-flow
+		</h2>
+
+		<div class="demostration">
+			<p>flow/nowrap/column</p>
+				<ul class="flow-nowrap-column">
+					<li class="item">item 01</li>
+					<li class="item">item 02</li>
+					<li class="item">item 03</li>
+				</ul>
+				<p>flow/wrap/row</p>
+				<ul class="flow-wrap-row">
+					<li class="item">item 01</li>
+					<li class="item">item 02</li>
+					<li class="item">item 03</li>
+				</ul>
+		</div>
+
+		<p class="post-body">
+			substitui flex-direction e flex-wrap
+		</p>
+	</article>
+
+
+	<article class="post">
+		<h2 class="post-title">
+			justify-content
+		</h2>
+
+		<div class="demostration">
+			<p>flex-start</p>
+				<ul class="flex-start">
+					<li class="item">item 01</li>
+					<li class="item">item 02</li>
+					<li class="item">item 03</li>
+				</ul>
+				<p>flex-center</p>
+				<ul class="flex-center">
+					<li class="item">item 01</li>
+					<li class="item">item 02</li>
+					<li class="item">item 03</li>
+				</ul>
+				<p>flex-end</p>
+				<ul class="flex-end">
+					<li class="item">item 01</li>
+					<li class="item">item 02</li>
+					<li class="item">item 03</li>
+				</ul>
+		</div>
+
+		<p class="post-body">
+			Alinha os itens dentro de um container - não funciona se os itens ocupam 100% do container
+			- flex-start(inicio do container), flex-end(fim do container),center(no centro),space-between(espaço igual entre os itens)space-around(o meio entre os itens é duas vezes maior que o inicio)
+		</p>
+	</article>
+
+
+	<article class="post">
+			<h2 class="post-title">
+				align-items
+			</h2>
+
+			<div class="demostration">
+				<p>flex-start</p>
+					<ul class="align-center">
+						<li class="item">item 01</li>
+						<li class="item">item 02 -mais texto</li>
+						<li class="item">item 03  -mais texto  -mais texto</li>
+					</ul>
+					<p>flex-center</p>
+					<ul class="align-stretch">
+						<li class="item">item 01</li>
+						<li class="item">item 02 -mais texto -mais texto</li>
+						<li class="item">item 03  -mais texto  -mais texto -mais texto</li>
+					</ul>
+					<p>flex-start</p>
+					<ul class="align-start">
+						<li class="item">item 01</li>
+						<li class="item">item 02 -mais texto</li>
+						<li class="item">item 03  -mais texto  -mais texto -mais texto</li>
+					</ul>
+			</div>
+
+			<p class="post-body">
+				- alinhamento dos itens por meio de eixos - center(no centro),stretch(padrão, crescem igualmente),flex-start(no inicio),flex-end(no final),baseline(eixo da linha base do item)
+			</p>
+		</article>
+
+</body>
+</html>
