@@ -1,0 +1,13 @@
+flex-grow
+ - define o crescimento proporcional ao conteudo interno
+ - se definir fg o justify-content deixa de funcionar
+ - argumentos são numeros inteiros
+
+flex-basis
+ - tamanho inicial com base no conteudo(tipo tamanho minimo)
+ - auto(proporcional ao conteudo), px,%,em (valores exatos)
+ - 0 relação com o flex-grow
+
+flex-shrink
+ - capacidade de redução e ou compressão de um item
+ - 

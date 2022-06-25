@@ -33,8 +33,8 @@ body{
 	padding: 5px;
 }
 .demostration{
-	width: 400px;
-	height: 400px;
+	width: 500px;
+	height: 500px;
 	border:1px solid black;
 	margin: auto;
 }
@@ -134,5 +134,19 @@ body{
 	display: flex;
 	align-items: flex-start;
 }
-
+.cont-start{
+	list-style: none;
+	display: flex;
+	align-content: flex-start;
+}
+.cont-center{
+	list-style: none;
+	display: flex;
+	align-content: center;
+}
+.cont-stretch{
+	list-style: none;
+	display: flex;
+	align-content: stretch;
+}
 /*Tags exclusivas de cada post*/

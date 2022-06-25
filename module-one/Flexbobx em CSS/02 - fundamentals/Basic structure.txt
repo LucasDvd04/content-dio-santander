@@ -22,3 +22,8 @@ justify-content
 align-items
  - alinhamento dos itens por meio de eixos
  - center(no centro),stretch(padrão, crescem igualmente),flex-start(no inicio),flex-end(no final),baseline(eixo da linha base do item)
+
+align-content
+ - alinhamento no eixo vertical do container
+ - a altura do conteiner tem que ser maior que o num de linhas dos itens
+ - flex-start(inicio do container), flex-end(fim do container),center(no centro),space-between(espaço igual entre os itens)space-around(o meio entre os itens é duas vezes maior que o inicio)
