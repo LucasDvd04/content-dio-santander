@@ -10,4 +10,14 @@ flex-basis
 
 flex-shrink
  - capacidade de redução e ou compressão de um item
- - 
+ - argumentos são numeros inteiros
+
+flex
+ - compressão do grow,shrink e basis em 1 só
+
+order
+ - ordem na qual o itens são exibidos
+
+align-self
+ - alinha de modo individual de acordo com um item
+ - auto(padão),flex-start(inicio),end(fim),center(centro),stretch(relativo),baseline(tem uma linha base)

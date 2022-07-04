@@ -1,0 +1,24 @@
+Caracteristicas
+ - Interpretada (executada em tempo real, não passa por um compilador)
+ - Baseada em Protótipos 
+ - Multiparadigma 
+ - Comumente utilizada em app web-client-side (executada com o usuário)
+ - segue o padrão ECMAScript ()
+
+
+Criado em 1995
+ - 1997 - Lançado oficialmente - ECMAScript01
+ - 1998 - Atualizações - ECMAScript02
+ - 1999 - Integração do Try/catch
+ - 2009 - ECMAScript05 
+ - 2015 - ECMAScript06
+
+
+Aplicações
+ - Web
+ - Mobile
+ - SmartWatches
+ - Games
+ - Iot
+ - APIs
+
