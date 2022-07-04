@@ -1,0 +1,6 @@
+Folder
+ -assets
+    -style/style.css
+    -js/script.js
+    -img/xxx.jpg
+ -index

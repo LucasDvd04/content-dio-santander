@@ -1,0 +1,11 @@
+Document Object Model
+
+Estrutura dos elementos dentro da janela
+
+Window
+ - History
+ - Location
+ - Document
+
+document.getElementsByTagName('h1')
+var heading1 = document.getElementsByTagName('h1')[0]
