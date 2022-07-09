@@ -1,0 +1,16 @@
+Variaveis
+	var(escopo global, faz hoisting e poder ser reatribuido valor)
+	  -var a = ""; ou simplesmente a = "";
+	let(escopo de bloco ,pode ser reatribuido valor)
+	  -let a = "";
+	const(escopo de bloco)
+	  - const a = "";
+
+Tipos
+	Boolean - True or False
+	null - nulo
+	undefined - não tem valor
+	Number - 42 ou 3.14
+	String - palavra ou letra
+	Symbol  
+	Object(Dicionario em python {})

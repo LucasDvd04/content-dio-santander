@@ -1,0 +1,19 @@
+
+function exemplo(a,b){
+	return a+b;
+}
+
+função autoinvocavel
+
+(
+	function(){
+	  let name = "Digital Innovation One"
+	  return name;
+}	
+)(parametros);
+
+callback
+
+const cal = function(função, arg1, arg2){
+	return função(arg1,arg2);
+}
