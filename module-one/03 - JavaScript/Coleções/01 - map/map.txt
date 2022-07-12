@@ -1,0 +1,5 @@
+MAPs
+ - nomeDoArray.map(callback, thisArg)   /   callback(item, index, array)
+ - callback é a função aplicada para cada item do array.
+ - this é opcional
+

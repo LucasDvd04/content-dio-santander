@@ -1,0 +1,8 @@
+Reduce - junta todos os elementos do array e retorna um unico valor
+
+ - nomeDoArray.reduce(callback, initialValue)
+ - const callbackFn = function(accumulutor, currentValue, index, array){}
+ - callbakc: função a ser executada
+  - accumulator: age como um auxiliar, acumulando os valores do array
+  - currentValue: o elemento no qual a função está agindo
+ - initialValue: opcional, valor no qual o valor final se baseia

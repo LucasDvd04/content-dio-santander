@@ -1,0 +1,4 @@
+Filter
+ - array.filter(callback, thisArg)
+ - callback é a função aplicada para cada item do array.
+ - this é opcional
