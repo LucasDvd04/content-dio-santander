@@ -1,0 +1,9 @@
+Objeto que o Js disponibiliza para manipular os erros
+
+new Error(message, fileName, lineNumber) /fileName e lineNumber não sao obrigatorios
+
+const MeuErro = new Error('Mensagem invalida');
+
+MeuErro.name = 'InvalidMessage';
+
+throw MeuErro;

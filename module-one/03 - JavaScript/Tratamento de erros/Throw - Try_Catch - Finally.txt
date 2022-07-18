@@ -1,0 +1,14 @@
+Throw
+ - Retorna no console como um erro, o return retorna o string
+ 
+Try/Catch
+ try{
+	tente fazer isso
+}
+ catch(e){
+	se não der, faça isso
+}
+
+ finally{
+	isso aqui vai ser executado de qqr jeito
+}

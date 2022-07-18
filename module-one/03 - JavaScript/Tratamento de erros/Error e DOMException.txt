@@ -1,0 +1,11 @@
+ECMAScript Error
+
+erros que ocorrem em tempo de execução, falta de variaveis pontuação etc
+ - composto por
+	- Mensagem - descrição do erro
+ 	- Nome - nome do erro
+ 	- Linha - onde está o erro
+ 	- Call Stack 
+
+DOMException
+Erros relacionados ao Document Object Model (DOM) dentro de uma pagina na web;
