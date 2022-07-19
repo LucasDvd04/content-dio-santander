@@ -1,0 +1,31 @@
+Assincrono - Async
+ - que não ocorre ou se efetiva ao mesmo tempo
+
+Promisses (promessa)
+ - Objeto de processamento assincrono
+ - Pending - Fullfilled - Rejected
+const myPromise = new Promisse((resolve, reject) => {
+	windows.setTimeout(() => {
+		resolve(console.log('Resolvida!'));
+	},2000);
+});
+
+await myPromise
+	.then((result) => result + 'passando pelo then')
+	.then((result) => result + 'e agora acabou')
+	.catch((err) => console.log(err.message)).
+
+async functino resolvePromisse(){
+	const myPromise = new Promisse((resolve, reject) => {
+	windows.setTimeout(() => {
+		resolve(console.log('Resolvida!'));
+	},2000);
+});
+
+	const resolved = await myPromise
+	  .then((result) => result + 'passando pelo then')
+	  .then((result) => result + 'e agora acabou')
+	  .catch((err) => console.log(err.message)).
+
+	return resolved;
+}

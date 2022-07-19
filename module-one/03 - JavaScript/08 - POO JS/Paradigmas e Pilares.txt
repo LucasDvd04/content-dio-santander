@@ -1,0 +1,18 @@
+Paradigmas
+ - Imperativo - como resolver
+ - Declarativo - como fazer
+
+Pilares do POO
+ - herança
+ - polimorfismo
+ - encapsulamento
+ - abstração
+
+Abstração
+ - processo que busca simplificar as coisas
+Herança
+ - objetos que ordem propriedades e metodos do objeto pai
+Encapsulamento
+ - cada classe tem propriedades e metodos proprios
+Polimorfismo
+ - podem herdar e ainda assim se comportar diferente

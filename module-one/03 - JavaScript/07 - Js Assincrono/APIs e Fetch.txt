@@ -1,0 +1,26 @@
+API
+ - intermediario do Back com o Front
+
+Json
+ - JavaScript Object Notation
+
+Fetch
+ fetch(url, option)
+   .then(response => response.json())
+   .then(json => console.log(json))  //retorna uma promisse
+
+ fetch(https://taltal.tal, {
+	method: 'GET'.
+	cache: 'no-cache',
+})
+   .then(response => response.json())
+   .then(json => console.log(json))  //retorna uma promisse
+
+ fetch(https://taltal.tal, {
+	method: 'POST'.
+	cache: 'no-cache',
+	body: JSON.stringify(data)
+})
+   .then(response => response.json())
+   .then(json => console.log(json))  //retorna uma promisse
+

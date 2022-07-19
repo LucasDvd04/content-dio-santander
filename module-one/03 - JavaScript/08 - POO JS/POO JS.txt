@@ -1,0 +1,52 @@
+Prototipos
+ - todos os obj js herdam propriedades e metodos de uma prototype.
+
+Classes
+ -syntatic sugar -> sitaxe feita para facilitar escrita
+
+antes-------------
+var Meal = function(food){
+	this.food = food;
+}
+
+Meal.prototype.eat = function() {
+	return '=D'
+}
+
+agora-------------- 
+class Meal {
+	contructor (food){
+	 this.food = food
+	}
+
+	eat() {
+	return 'asda'
+	}
+}
+------------------
+class Animal{
+  constructor(type = 'animal'){
+    this.type = type   
+  }
+ 
+  get type(){
+    return this._type
+  }
+
+  set type(val){
+    this._type = val.toUpperCase()
+  }
+}
+
+class Cat extends Animal{
+  constructor() {
+    super('cat')  //super vai sobrescrever o da classe pai
+  }
+
+  makeSound() {
+    super.makeSound()
+    console.log('meow!')
+  }
+
+}
+
